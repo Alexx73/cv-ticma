@@ -47,26 +47,12 @@ body {
   text-align: center;
 }
 
-@media (max-width: 560px) {
+/* @media (max-width: 560px) {
   .inline {
     display: block;
-    /* min-height: 400px; */
-    /* width: 100%; */
     margin: auto;
-    width: 90%;
   }
-
-  #sidebar {
-    width: 90%;
-    /* margin: auto; */
-  }
-  #main {
-    width: 90%;
-  }
-  #footer {
-    width: 90%;
-  }
-}
+} */
 
 .text {
   color: white;
