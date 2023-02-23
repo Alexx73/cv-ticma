@@ -8,23 +8,15 @@
     <!-- CSS -->
     <link rel="stylesheet" href="css/estilos.css" />
     <link rel="stylesheet" href="./css/bootstrap.min.css" />
-
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
-      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-
     <title>Cv Ticma</title>
   </head>
+
   <body>
     <div class="container">
       
       <nav class="navbar navbar-expand-lg navbar-light bg-info text mb-0">
         <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">
+          <a class="navbar-brand" href="index3.html">
             <img
               class="round-img w-50"
               src="https://randomuser.me/api/portraits/men/82.jpg"
@@ -45,7 +37,7 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html"
+                <a class="nav-link active" aria-current="page" href="index3.html"
                   >Inicio</a
                 >
               </li>
@@ -84,57 +76,44 @@
           </div>
         </div>
       </nav>
+      <!-- -------------------------------- Form ------------------------------- -->
 
-      <div class="container">
-        <main class="row text-center">
-          <section id="main" class="col-md-9">
-            <h2 class="text">Main</h2>
-          </section>
+      <form class="w-50 mx-auto mb-4 mt-4">
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email </label>
+          <input
+            type="email"
+            class="form-control"
+            id="inputEmail1"
+            aria-describedby="emailHelp"
+          />
+          <div id="emailHelp" class="form-text">
+            We'll never share your email with anyone else.
+          </div>
+        </div>
 
-          <section id="sidebar" class="col-md-3">
-            <h2 class="text">Mi Porfolio</h2>
+        <div class="input-group">
+          <span class="input-group-text">Mensaje</span>
+          <textarea class="form-control" aria-label="With textarea"
+          id="mensaje"
+          ></textarea>
+        </div>
 
-            <div class="item">
-              <a
-                href="https://alexx73.github.io/TP_3_Scratch/index.html"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img class="side" src="./img/scratch_1.png" alt="" srcset="" />
-              </a>
-              <h2>Scratch</h2>
-            </div>
+        <button
+          type="submit"
+          class="btn btn-primary mt-2 text-center"
+          onclick="mostrarDatos()"
+        >
+          Submit
+        </button>
+      </form>
 
-            <div class="item">
-              <a
-                href="https://lasmercedes.ga"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img class="side" src="./img/tienda.jpg" alt="" srcset="" />
-              </a>
-              <h2>Tienda online</h2>
-            </div>
-            <div class="item">
-              <a
-                href="https://alexx73.github.io/TP_3_Scratch/index.html"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img class="side" src="./img/scratch_1.png" alt="" srcset="" />
-              </a>
-              <h2>Scratch</h2>
-            </div>
-          </section>
-        </main>
-      </div>
-
-      <footer id="footer" class="text-center">
-        <h2 class="text">Footer</h2>
+      <footer id="footer" class="inline">
+        <h2>Footer</h2>
       </footer>
     </div>
 
-    <script src="./js/app.js"></script>
     <script src="./js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>  </body>
+    <script src="./js/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </html>
