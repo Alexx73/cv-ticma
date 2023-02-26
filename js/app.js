@@ -15,7 +15,7 @@ function mostrarDatos(e) {
 
   // alert("hey");
   console.log(email, mensaje);
-  alert(email, mensaje);
+  alert("Tu mensaje fue enviado a: " + email, mensaje);
 
   // Swal.fire({
   //   title: "Are you sure?",
