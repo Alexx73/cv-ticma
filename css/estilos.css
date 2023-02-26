@@ -20,15 +20,19 @@ body {
 } */
 
 #main {
-  background-color: #ffbc0e;
-  min-height: 400px;
+  /* background-color: #ffbc0e; */
+  /* min-height: 350px; */
   /* width: 60%; */
+  /* max-height: 300px; */
+  height: 300;
 }
 
 #sidebar {
-  background-color: red;
-  min-height: 400px;
+  background-color: whitesmoke;
+  /* min-height: 300px; */
   /* width: 20%; */
+  /* max-height: 300px; */
+  height: 300;
 }
 
 #sidebar img {
@@ -42,6 +46,12 @@ body {
   text-align: center;
 }
 
+#info {
+  border: #1b3039 1px;
+  border-style: solid;
+  background-color: aquamarine;
+  border-radius: 50px;
+}
 .inline {
   display: flex;
   text-align: center;
