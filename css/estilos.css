@@ -49,7 +49,7 @@ body {
 #info {
   border: #1b3039 1px;
   border-style: solid;
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
   border-radius: 50px;
 }
 .inline {
@@ -64,8 +64,13 @@ body {
   }
 } */
 
-.text {
-  color: white;
+.text_black {
+  color: black;
+  font-family: "Lato", sans-serif;
+}
+
+.text_gris {
+  color: grey;
   font-family: "Lato", sans-serif;
 }
 
@@ -99,15 +104,25 @@ body {
 
 .logo {
   cursor: pointer;
-  width: 40;
-  height: 40;
-  display: flex;
+  width: 25%;
+  /* height: 40; */
+  /* display: flex; */
+}
+
+.logo:hover {
+  /* width: 28%; */
+  transform: scale(1.2);
+  transform: rotate(-45deg);
 }
 
 .logo-desc {
   color: white;
   margin-left: 20;
   padding-left: 20;
+}
+
+hr.solid {
+  border-top: 3px solid #bbb;
 }
 
 .header .logo img {
